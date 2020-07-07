@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Дмитрий Алексеев</title>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+	
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	
+	<script src="js/jquery-3.4.1.js"></script>
+</head>
+<body>
+	<header class="header">
+		<div class="header__wrapper">
+			<button class="header__menu-button" aria-label="Меню"></button>
+
+			<ul class="header__navigation-list navigation-list navigation-list_horizontal">
+				<li class="navigation-list__item navigation-list__item_horizontal">
+					<a class="navigation-list__link" href="#services">Услуги</a>
+				</li>
+
+				<li class="navigation-list__item navigation-list__item_horizontal">
+					<a class="navigation-list__link navigation-list__link_horizontal" href="#examples">Портфолио</a>
+				</li>
+
+				<li class="navigation-list__item navigation-list__item_horizontal">
+					<a class="navigation-list__link navigation-list__link_horizontal" href="#prices">Стоимость</a>
+				</li>
+			</ul>
+
+
+			<div class="header__call-wrapper">
+				<a href="tel:++74999955577" class="header__call-link">+7 (499) 995-55-77</a>
+
+				<button class="header__call-button header__call-button_regular">Заказать звонок</button>
+				<button class="header__call-button header__call-button_minimized" aria-label="Заказать звонок"></button>
+			</div>
+		</div>
+	</header>
+	
+	<main>
+		<div class="description">
+			<div class="description__wrapper">
+				<span class="description__decoration description__decoration_first">{ }</span>
+				<span class="description__decoration description__decoration_second">#</span>
+				<span class="description__decoration description__decoration_third">&lt;/&gt;</span>
+				<span class="description__decoration description__decoration_fourth">&lt;div&gt;</span>
+				<span class="description__decoration description__decoration_fifth">&lt;div&gt;</span>
+				<span class="description__decoration description__decoration_sixth">&lt;/&gt;</span>
+
+				<img class="description__image" alt="Дмитрий Алексеев" src="./img/photo.png">
+
+				<article class="description__article description-article">
+					<h2 class="description-article__name">Дмитрий Алексеев</h2>
+
+					<p class="description-article__comment">Frontend-разработчик и веб-верстальщик</p>
+
+					<button class="description-article__button">Узнать больше</button>
+				</article>
+			</div>
+		</div>
+		
+		<article id="services" class="services-article">
+			<h2 class="services-article__heading">Что я делаю</h2>
+				
+			<ul class="services-article__list services-list">
+				<li class="services-list__item">
+					<figure class="services-list__figure">
+						<img class="services-list__image" alt="Вёрстка лендинг–страниц и сайтов" src="img/tools-and-utensils.png">
+						<figcaption class="services-list__figcaption">Вёрстка лендинг–страниц и сайтов любой сложности</figcaption>
+					</figure>
+				</li>
+					
+				<li class="services-list__item">
+					<figure class="services-list__figure">
+						<img class="services-list__image" alt="Адаптивная вёрстка" src="img/responsive.png">
+						<figcaption class="services-list__figcaption">Адаптивная вёрстка под все браузеры и устройства</figcaption>
+					</figure>
+				</li>
+					
+				<li class="services-list__item">
+					<figure class="services-list__figure">
+						<img class="services-list__image" alt="Frontend–разработка и программирование</" src="img/programming.png">
+						<figcaption class="services-list__figcaption">Frontend–разработка и программирование</figcaption>
+					</figure>
+				</li>
+					
+				<li class="services-list__item">
+					<figure class="services-list__figure">
+						<img class="services-list__image" alt="Исправление и доработка" src="img/coding.png">
+						<figcaption class="services-list__figcaption">Исправление и доработка существующей вёрстки</figcaption>
+					</figure>
+				</li>
+			</ul>
+				
+			<button class="services-article__button">Узнать стоимость</button>
+		</article>
+		
+		<article id="examples" class="examples-article">
+			<div class="examples-article__wrapper">
+				<h2 class="examples-article__heading">Примеры моих работ</h2>
+
+				<div class="examples-article__list examples-list">
+					<div class="examples-list__wrapper swiper-wrapper">
+						<figure class="examples-list__figure swiper-slide">
+							<img class="examples-list__image" alt="Сайт психолога Веры Антоновой" src="img/example1.jpg">
+							<figcaption class="examples-list__figcaption">Сайт психолога Веры Антоновой</figcaption>
+						</figure>
+
+						<figure class="examples-list__figure swiper-slide">
+							<img class="examples-list__image" alt="Сайт магазина детской одежды" src="img/example2.jpg">
+							<figcaption class="examples-list__figcaption">Сайт магазина детской одежды</figcaption>
+						</figure>
+
+
+						<figure class="examples-list__figure swiper-slide">
+							<img class="examples-list__image" alt="Сайт магазина «Рыболов»" src="img/example3.jpg">
+							<figcaption class="examples-list__figcaption">Сайт магазина «Рыболов»</figcaption>
+						</figure>
+					</div>
+				</div>
+
+				<button class="examples-article__slider-button examples-article__slider-button_left" aria-label="Назад"></button>
+				<button class="examples-article__slider-button examples-article__slider-button_right" aria-label="Вперёд"></button>
+
+				<div class="examples-article__pagination-buttons swiper-pagination"></div>
+
+				<button class="examples-article__button">Заказать проект</button>
+			</div>
+		</article>
+		
+		<div id="prices" class="prices-info">
+			<div class="prices-info__wrapper">
+				<span class="prices-info__decoration prices-info__decoration_first">{ }</span>
+				<span class="prices-info__decoration prices-info__decoration_second">#</span>
+				<span class="prices-info__decoration prices-info__decoration_third">&lt;/&gt;</span>
+				<span class="prices-info__decoration prices-info__decoration_fourth">&lt;div&gt;</span>
+				<span class="prices-info__decoration prices-info__decoration_fifth">{ }</span>
+
+				<article class="prices-info__article prices-article">
+					<h2 class="prices-article__header">Адаптивная вёрстка под все устройства и браузеры от 1000 рублей всего за 4 часа.*</h2>
+
+					<p class="prices-article__comment">* Срок и стоимость могут отличаться от заявленных и рассчитываются  индивидуально, в зависимости от сложности задач.</p>
+				</article>
+			</div>
+		</div>
+	</main>
+	
+	<form class="form form_call" action="#" name="ordercall">
+		<div class="form__wrapper">
+			<div class="form__content">
+				<button class="form__close-button form__close-button_call" aria-label="Закрыть">
+					<i class="fa fa-times-circle" aria-hidden="true"></i>
+				</button>
+				
+				
+				<label>
+					<span class="form__label">* Имя</span>
+					<input class="form__input" type="text" name="firstname" required>
+				</label>
+				
+				<label>
+					<span class="form__label">* Телефон</span>
+					<input class="form__input" type="tel" name="phonenumber" required>
+				</label>
+				
+				<input class="form__submit form__submit_call" type="submit" value="Заказать звонок">
+			</div>
+		</div>
+	</form>
+	
+	<form class="form form_order" action="#" name="order">
+		<div class="form__wrapper">
+			<div class="form__content">
+				<button class="form__close-button form__close-button_order" aria-label="Закрыть">
+					<i class="fa fa-times-circle" aria-hidden="true"></i>
+				</button>
+				
+				
+				<label>
+					<span class="form__label">* Имя</span>
+					<input class="form__input" type="text" name="firstname" required>
+				</label>
+				
+				<label>
+					<span class="form__label">* Телефон</span>
+					<input class="form__input" type="tel" name="phonenumber" required>
+				</label>
+				
+				<label>
+					<span class="form__label">* E-mail</span>
+					<input class="form__input" type="email" name="email" required>
+				</label>
+				
+				<input class="form__submit form__submit_order" type="submit" value="Отправить заявку">
+			</div>
+		</div>
+	</form>
+	
+	<footer class="footer">
+		<div class="footer__links bottom-links">
+			<ul class="bottom-links__navigation navigation navigation_vertical">
+				<li class="navigation-list__item navigation-list__item_vertical">
+					<a href="#services">Услуги</a>
+				</li>
+
+				<li class="navigation-list__item navigation-list__item_vertical">
+					<a href="#examples">Портфолио</a>
+				</li>
+
+				<li class="navigation-list__item navigation-list__item_vertical">
+					<a href="#prices">Стоимость</a>
+				</li>
+			</ul>
+		
+			<ul class="bottom-links__contact-list contact-list contact-list_center">
+				<li class="contact-list__item">
+					<a href="tel:++74999957755"><i class="contact-list__icon fa fa-phone"></i>+7 (499) 995-77-55</a>
+				</li>
+				
+				<li class="contact-list__item">
+					<a href="mailto:dmitry@alekseev.com"><i class="contact-list__icon fa fa-envelope"></i>dmitry@alekseev.com</a>
+				</li>
+			</ul>
+			
+			<div class="bottom_links__contact-list contact-list contact-list_right">
+				<button class="contact-list__button">Заказать звонок</button>
+				
+				<ul class="contacts-list__sn-list social-networks-list">
+					<li class="social-networks-list__item">
+						<a href="#" class="social-networks-list__vk"></a>
+					</li>
+					<li class="social-networks-list__item">
+						<a href="#" class="social-networks-list__fb"></a>
+					</li>
+					<li class="social-networks-list__item">
+						<a href="#" class="social-networks-list__tw"></a>
+					</li>
+					<li class="social-networks-list__item">
+						<a href="#" class="social-networks-list__inst"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<p class="footer__copyright">© Дмитрий Алексеев, 2016 – 2018</p>
+	</footer>
+	
+	<script src="js/swiper.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
