@@ -71,3 +71,8 @@ $(".form").on("click", function(e) {
 		$(this).fadeToggle(800);
 	}
 })
+
+$("body").on('click', '[href*="#"]', function(e){
+  $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top}, 800);
+  e.preventDefault();
+});

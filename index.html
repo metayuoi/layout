@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<title>Дмитрий Алексеев</title>
+	<title>Frontend-разработчик и веб-верстальщик</title>
 	
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,6 +15,9 @@
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
 	
 	<script src="js/jquery-3.4.1.js"></script>
+	
+	<script src="js/swiper.min.js" defer></script>
+	<script src="js/script.js" defer></script>
 </head>
 <body>
 	<header class="header">
@@ -23,7 +26,7 @@
 
 			<ul class="header__navigation-list navigation-list navigation-list_horizontal">
 				<li class="navigation-list__item navigation-list__item_horizontal">
-					<a class="navigation-list__link" href="#services">Услуги</a>
+					<a class="navigation-list__link navigation-list__link_horizontal" href="#services">Услуги</a>
 				</li>
 
 				<li class="navigation-list__item navigation-list__item_horizontal">
@@ -235,16 +238,16 @@
 				
 				<ul class="contacts-list__sn-list social-networks-list">
 					<li class="social-networks-list__item">
-						<a href="#" class="social-networks-list__vk"></a>
+						<a href="#" class="social-networks-list__vk" aria-label="ВКонтакте"></a>
 					</li>
 					<li class="social-networks-list__item">
-						<a href="#" class="social-networks-list__fb"></a>
+						<a href="#" class="social-networks-list__fb" aria-label="Facebook"></a>
 					</li>
 					<li class="social-networks-list__item">
-						<a href="#" class="social-networks-list__tw"></a>
+						<a href="#" class="social-networks-list__tw" aria-label="Twitter"></a>
 					</li>
 					<li class="social-networks-list__item">
-						<a href="#" class="social-networks-list__inst"></a>
+						<a href="#" class="social-networks-list__inst" aria-label="Instagram"></a>
 					</li>
 				</ul>
 			</div>
@@ -252,8 +255,5 @@
 		
 		<p class="footer__copyright">© Дмитрий Алексеев, 2016 – 2018</p>
 	</footer>
-	
-	<script src="js/swiper.min.js"></script>
-	<script src="js/script.js"></script>
 </body>
 </html>

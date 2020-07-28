@@ -493,7 +493,6 @@
 
 .description__decoration {
 	position: absolute;
-	z-index: 10;
 	color: #f72c65;
 	font-weight: bold;
 	font-size: 60px;
