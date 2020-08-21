@@ -6,13 +6,18 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
-	
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	
-	<script src="js/jquery-3.4.1.js"></script>
+	<link rel="preload" href="fonts/roboto-v20-latin_cyrillic-regular.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="fonts/roboto-v20-latin_cyrillic-regular.woff" as="font" type="font/woff" crossorigin>
+	<link rel="preload" href="fonts/roboto-v20-latin_cyrillic-500.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="fonts/roboto-v20-latin_cyrillic-500.woff" as="font" type="font/woff" crossorigin>
+	<link rel="preload" href="fonts/roboto-v20-latin_cyrillic-700.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="fonts/roboto-v20-latin_cyrillic-700.woff" as="font" type="font/woff" crossorigin>
+	<link rel="preload" href="fonts/roboto-v20-latin_cyrillic-900.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="fonts/roboto-v20-latin_cyrillic-900.woff" as="font" type="font/woff" crossorigin>
 	
+	<script src="js/jquery-3.5.1.min.js" defer></script>
 	<script src="js/swiper.min.js" defer></script>
 	<script src="js/script.js" defer></script>
 </head>
@@ -155,7 +160,7 @@
 	
 	<form class="form form_call" action="#" name="ordercall">
 		<div class="form__wrapper">
-			<button class="form__close-button form__close-button_call" aria-label="Закрыть">
+			<button type="button" class="form__close-button form__close-button_call" aria-label="Закрыть">
 				<i class="fa fa-times-circle" aria-hidden="true"></i>
 			</button>
 				
@@ -176,7 +181,7 @@
 	
 	<form class="form form_order" action="#" name="order">
 		<div class="form__wrapper">
-			<button class="form__close-button form__close-button_order" aria-label="Закрыть">
+			<button type="button" class="form__close-button form__close-button_order" aria-label="Закрыть">
 				<i class="fa fa-times-circle" aria-hidden="true"></i>
 			</button>
 				
