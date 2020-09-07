@@ -59,7 +59,7 @@
 				<img class="description__image" alt="Дмитрий Алексеев" src="./img/photo.png">
 
 				<article class="description__article description-article">
-					<h2 class="description-article__name">Дмитрий Алексеев</h2>
+					<h1 class="description-article__name">Дмитрий Алексеев</h1>
 
 					<p class="description-article__comment">Frontend-разработчик и веб-верстальщик</p>
 
@@ -73,31 +73,19 @@
 				
 			<ul class="services-article__list services-list">
 				<li class="services-list__item">
-					<figure class="services-list__figure">
-						<img class="services-list__image" alt="Вёрстка лендинг–страниц и сайтов" src="img/tools-and-utensils.png">
-						<figcaption class="services-list__figcaption">Вёрстка лендинг–страниц и сайтов любой сложности</figcaption>
-					</figure>
+					<div class="services-list__block services-list__block_tools-and-utensils">Вёрстка лендинг–страниц и сайтов любой сложности</div>
 				</li>
 					
 				<li class="services-list__item">
-					<figure class="services-list__figure">
-						<img class="services-list__image" alt="Адаптивная вёрстка" src="img/responsive.png">
-						<figcaption class="services-list__figcaption">Адаптивная вёрстка под все браузеры и устройства</figcaption>
-					</figure>
+					<div class="services-list__block services-list__block_responsive">Адаптивная вёрстка под все браузеры и устройства</div>
 				</li>
 					
 				<li class="services-list__item">
-					<figure class="services-list__figure">
-						<img class="services-list__image" alt="Frontend–разработка и программирование</" src="img/programming.png">
-						<figcaption class="services-list__figcaption">Frontend–разработка и программирование</figcaption>
-					</figure>
+					<div class="services-list__block services-list__block_programming">Frontend–разработка и программирование</div>
 				</li>
 					
 				<li class="services-list__item">
-					<figure class="services-list__figure">
-						<img class="services-list__image" alt="Исправление и доработка" src="img/coding.png">
-						<figcaption class="services-list__figcaption">Исправление и доработка существующей вёрстки</figcaption>
-					</figure>
+					<div class="services-list__block services-list__block_coding">Исправление и доработка существующей вёрстки</div>
 				</li>
 			</ul>
 				
@@ -109,23 +97,28 @@
 				<h2 class="examples-article__heading">Примеры моих работ</h2>
 
 				<div class="examples-article__list examples-list">
-					<div class="examples-list__wrapper swiper-wrapper">
-						<figure class="examples-list__figure swiper-slide">
-							<img class="examples-list__image" alt="Сайт психолога Веры Антоновой" src="img/example1.jpg">
-							<figcaption class="examples-list__figcaption">Сайт психолога Веры Антоновой</figcaption>
-						</figure>
+					<ul class="examples-list__wrapper swiper-wrapper">
+						<li class="swiper-slide">
+							<figure class="examples-list__figure">
+								<img class="examples-list__image" alt="Сайт психолога Веры Антоновой" src="img/example1.jpg">
+								<figcaption class="examples-list__figcaption">Сайт психолога Веры Антоновой</figcaption>
+							</figure>
+						</li>
+						
+						<li class="swiper-slide">
+							<figure class="examples-list__figure">
+								<img class="examples-list__image" alt="Сайт магазина детской одежды" src="img/example2.jpg">
+								<figcaption class="examples-list__figcaption">Сайт магазина детской одежды</figcaption>
+							</figure>
+						</li>
 
-						<figure class="examples-list__figure swiper-slide">
-							<img class="examples-list__image" alt="Сайт магазина детской одежды" src="img/example2.jpg">
-							<figcaption class="examples-list__figcaption">Сайт магазина детской одежды</figcaption>
-						</figure>
-
-
-						<figure class="examples-list__figure swiper-slide">
-							<img class="examples-list__image" alt="Сайт магазина «Рыболов»" src="img/example3.jpg">
-							<figcaption class="examples-list__figcaption">Сайт магазина «Рыболов»</figcaption>
-						</figure>
-					</div>
+						<li class="swiper-slide">
+							<figure class="examples-list__figure">
+								<img class="examples-list__image" alt="Сайт магазина «Рыболов»" src="img/example3.jpg">
+								<figcaption class="examples-list__figcaption">Сайт магазина «Рыболов»</figcaption>
+							</figure>
+						</li>
+					</ul>
 				</div>
 
 				<button class="examples-article__slider-button examples-article__slider-button_left" aria-label="Назад"></button>
@@ -200,6 +193,8 @@
 			<input class="form__submit form__submit_order" type="submit" value="Отправить заявку">
 		</div>
 	</form>
+	
+	<div class="modal-overlay"></div>
 	
 	<footer class="footer">
 		<div class="footer__links bottom-links">
